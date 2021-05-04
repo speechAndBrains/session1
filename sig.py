@@ -189,7 +189,7 @@ def build_bargraph_ex4(clicks):
         result=sc.ttest_ind(data1,data2)
         dist.append(result[0])
          
-        mult=sc.t.ppf((1 + 0.90)/2,len(data1)-1)
+        mult=sc.t.ppf((1 + 0.95)/2,len(data1)-1)
         fig1 = go.Figure()
         fig1.add_trace(go.Bar(
             name='Control',
