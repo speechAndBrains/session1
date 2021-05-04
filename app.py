@@ -255,5 +255,5 @@ def update_hist_ex4(ex4_mean1,ex4_mean2):
     
     return outCard
 
-if __name__ == "__main__":
-    app.run_server(debug=True, port=8889)
+if __name__ == '__main__':
+    app.run_server(debug=True)   
