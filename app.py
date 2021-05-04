@@ -248,8 +248,8 @@ def update_hist_ex4(ex4_mean1,ex4_mean2):
     [
         dbc.Row(
             [
-                dbc.Col(dbc.Card(card1),xs=6,md=6,lg=6),
-                dbc.Col(dbc.Card(card2),xs=6,md=6,lg=6),
+                dbc.Col(dbc.Card(card1),xs=12,md=6,lg=6),
+                dbc.Col(dbc.Card(card2),xs=12,md=6,lg=6),
                 
             ]
     )])
