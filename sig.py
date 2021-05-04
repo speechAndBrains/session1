@@ -128,7 +128,7 @@ slider2=dcc.Slider(
 text3=dcc.Markdown('''
                     ##### Comparing an observed value to a null distribution #####
                     As said previously, statisticians have calculated mathematical proofs for generating null distributions and don't rely on the kinds of simulated null dsitributions you have been creating.  
-                    These empirical distributions are referred to as the normal distribution, t-distribution and f-distribution depending on the particular statistical test used. The exact shape of these distributions depends on the number of participants (the degrees of freedom). 
+                    These distributions are referred to as the normal distribution, t-distribution and f-distribution depending on the particular statistical test used. The exact shape of these distributions depends on the number of participants (the degrees of freedom). 
                     &nbsp 
                     
                     When you move the slider below you can generate data drawn from the same or different means. The t-value
@@ -256,7 +256,7 @@ def build_expHyp_ex4(ex4_mean1,ex4_mean2):
     x_t=np.linspace(sc.t.ppf(0.0033,98),sc.t.ppf(0.9967,98),100)
         
     fig4.add_trace(go.Scatter(x=x_t,y=sc.t.pdf(x_t,98)))
-    fig4.update_layout(title_text='Empirical T-Distribution')        
+    fig4.update_layout(title_text='T-Distribution')        
     fig4.add_shape(type='line',x0=ref_result[0],y0=0,x1=ref_result[0],y1=0.5,line={'dash': 'dash'})
    
     graph4=dcc.Graph(figure = fig4)
