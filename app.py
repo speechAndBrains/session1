@@ -19,6 +19,7 @@ import plotly.graph_objects as go
 import pandas as pd
 import scipy.stats as sc
 import dash_bootstrap_components as dbc
+import os
 
 #import functions in different pages
 from navbar import Navbar
