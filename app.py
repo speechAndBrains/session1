@@ -36,6 +36,7 @@ app = dash.Dash(__name__,
 #this is important and allows pages to differ and for items to be absent
 app.config.suppress_callback_exceptions = True
 server = app.server
+server.secret_key = os.environ.get('secret_key', 'secret')
 
 #ger navigation bar
 nav=Navbar()
