@@ -1,5 +1,5 @@
 # Session1 - Sunday Morning Stats
 
-This a statistics tutorial app written in Python with the Dash package.  It allows students to understand the concept of means, variance and standard deviation, and the fundamental principles underlying frequentist statistics. 
+This a statistics tutorial written as a Python App using the Dash package.  It allows students to understand the basic statistics concept of means, variance and standard deviation.  It also introduces the idea of probability distributions. 
 
-You can access the application here: sundaystats1.herokuapp.com
+You can access the application here: https://sundaystats1.herokuapp.com
